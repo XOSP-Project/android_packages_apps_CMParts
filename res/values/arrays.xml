@@ -61,6 +61,7 @@
         <item>@string/hardware_keys_action_launch_camera</item>
         <item>@string/hardware_keys_action_sleep</item>
         <item>@string/hardware_keys_action_last_app</item>
+        <item>@string/hardware_keys_action_split_screen</item>
     </string-array>
 
     <string-array name="hardware_keys_action_values" translatable="false">
@@ -73,11 +74,12 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
+        <item>9</item>
     </string-array>
 
     <string-array name="power_menu_actions_array" translatable="false">
         <item>power</item>
-        <item>reboot</item>
+        <item>restart</item>
         <item>screenshot</item>
         <item>airplane</item>
         <item>users</item>
@@ -266,4 +268,16 @@
         <item>25</item>
     </string-array>
 
+    <!-- Expanded desktop styles -->
+    <string-array name="expanded_desktop_style_entries" translatable="false">
+        <item>@string/expanded_desktop_style_hide_both</item>
+        <item>@string/expanded_desktop_style_hide_status</item>
+        <item>@string/expanded_desktop_style_hide_navigation</item>
+    </string-array>
+
+    <string-array name="expanded_desktop_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

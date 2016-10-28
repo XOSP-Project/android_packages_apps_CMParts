@@ -34,6 +34,7 @@ import android.widget.Button;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
 import org.cyanogenmod.cmparts.profiles.NFCProfileTagCallback;
+import org.cyanogenmod.cmparts.widget.SwitchBar;
 import org.cyanogenmod.internal.cmparts.PartInfo;
 import org.cyanogenmod.internal.cmparts.PartsList;
 
@@ -170,13 +171,6 @@ public class PartsActivity extends SettingsDrawerActivity implements
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void notifyPartChanged(PartInfo part) {
-        Intent i = new Intent(PartsList.ACTION_PART_CHANGED);
-        i.getExtras().putString(PartsList.EXTRA_PART_KEY, part.getName());
-        i.getExtras().putParcelable(PartsList.EXTRA_PART, part);
-        sendBroadcast(i);
     }
 
     public void startPreferencePanel(String fragmentClass, Bundle args, int titleRes,

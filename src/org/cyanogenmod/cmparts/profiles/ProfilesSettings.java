@@ -37,7 +37,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.cyanogenmod.cmparts.CMBaseSystemSettingSwitchBar;
+import org.cyanogenmod.cmparts.widget.CMBaseSystemSettingSwitchBar;
 import org.cyanogenmod.cmparts.PartsActivity;
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
@@ -244,7 +244,7 @@ public class ProfilesSettings extends SettingsPreferenceFragment
             refreshList();
         }
 
-        onRefresh(activity, null);
+        onSettingsChanged(null);
     }
 
     @Override

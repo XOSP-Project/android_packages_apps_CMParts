@@ -41,8 +41,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-import org.cyanogenmod.cmparts.PackageListAdapter;
-import org.cyanogenmod.cmparts.PackageListAdapter.PackageItem;
+import org.cyanogenmod.cmparts.widget.PackageListAdapter;
+import org.cyanogenmod.cmparts.widget.PackageListAdapter.PackageItem;
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 
@@ -171,10 +171,10 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
             mGeneralPrefs.removePreference(mAutoGenerateColors);
         } else {
             mAutoGenerateColors.setOnPreferenceChangeListener(this);
-            addTrigger(CMSettings.System.getUriFor(CMSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO));
+            watch(CMSettings.System.getUriFor(CMSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO));
         }
 
-        addTrigger(Settings.System.getUriFor(Settings.System.NOTIFICATION_LIGHT_PULSE));
+        watch(Settings.System.getUriFor(Settings.System.NOTIFICATION_LIGHT_PULSE));
     }
 
     @Override

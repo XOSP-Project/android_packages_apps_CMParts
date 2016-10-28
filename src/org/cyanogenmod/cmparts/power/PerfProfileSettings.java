@@ -35,7 +35,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Toast;
 
 import org.cyanogenmod.cmparts.R;
-import org.cyanogenmod.cmparts.SeekBarPreference;
+import org.cyanogenmod.cmparts.widget.SeekBarPreference;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 import org.cyanogenmod.graphics.drawable.StopMotionVectorDrawable;
 
@@ -113,7 +113,7 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
             mPerfSeekBar.setOnPreferenceChangeListener(this);
             updatePerfSettings();
 
-            addTrigger(CMSettings.Secure.getUriFor(CMSettings.Secure.PERFORMANCE_PROFILE));
+            watch(CMSettings.Secure.getUriFor(CMSettings.Secure.PERFORMANCE_PROFILE));
         }
 
         mAutoPowerSavePref.setEntries(R.array.auto_power_save_entries);
@@ -246,8 +246,8 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
     }
 
     @Override
-    public void onRefresh(Context context, Uri uri) {
-        super.onRefresh(context, uri);
+    public void onSettingsChanged(Uri contentUri) {
+        super.onSettingsChanged(contentUri);
         updatePerfSettings();
     }
 

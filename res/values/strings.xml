@@ -181,6 +181,7 @@
     <string name="hardware_keys_action_launch_camera">Launch camera</string>
     <string name="hardware_keys_action_sleep">Turn screen off</string>
     <string name="hardware_keys_action_last_app">Last app</string>
+    <string name="hardware_keys_action_split_screen">Split screen</string>
     <string name="camera_sleep_on_release_title">Screen peek</string>
     <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
     <string name="camera_launch_title">Launch camera</string>
@@ -548,4 +549,15 @@
     <string name="auto_power_save_summary_off">Do not enable power save mode automatically</string>
     <string name="app_perf_profiles_title">Automatic optimization</string>
     <string name="app_perf_profiles_summary">Automatically choose an appropriate performance profile for applications and usage patterns</string>
+
+    <!-- Applications: Expanded desktop -->
+    <string name="expanded_desktop_settings_title">Expanded desktop</string>
+    <string name="expanded_desktop_settings_summary">Expand your available desktop space by hiding the status bar, navigation bar, or both</string>
+    <string name="expanded_desktop_options_title">Customization options</string>
+    <string name="expanded_desktop_style_title">Expanded desktop style</string>
+    <string name="expanded_desktop_style_hide_nothing">Hide nothing</string>
+    <string name="expanded_desktop_style_hide_status">Hide status bar</string>
+    <string name="expanded_desktop_style_hide_navigation">Hide navigation bar</string>
+    <string name="expanded_desktop_style_hide_both">Hide both</string>
+    <string name="expanded_desktop_nothing_to_show_text">Turn the switch off to customize your expanded desktop on a per-app basis</string>
 </resources>
