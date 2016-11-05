@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+<!-- Copyright (C) 2016 The Xperia Open Source Project
 
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="612"
+    android:viewportHeight="792"
+    android:width="612dp"
+    android:height="792dp">
     <path
-        android:fillColor="#009688"
-        android:pathData="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53
-4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
+        android:pathData="M15.91602 394.5493C8.781738 237.6621 152.5317 101.6016 307.8848 102.3267C459.1719 103.0356 599.7529 235.5273 598.4551 397.0957C597.2148 552.6357 464.7148 690.6797 304.7261 688.0928C114.875 685.0225 9.220215 526.8154 15.91602 394.5493M140.0965 415.9395C119.1332 416.1973 109.0508 422.8038 106.5605 442.0918C123.4922 461.6602 139.915 483.7998 159.5376 502.6201C193.0771 534.7822 226.5884 567.5244 271.3477 584.8232C328.6709 606.9697 400.5039 581.0596 419.5176 524.8564C438.6436 468.3633 449.7783 409.1563 464.1113 351.0674C465.0049 347.4258 463.3291 343.1479 462.6289 337.3872C456.3848 333.8101 449.6816 329.9751 443.252 326.2935C421.9668 336.4526 416.1729 352.8076 415.0625 373.1426C413.9902 392.8896 410.5264 412.4912 386.501 433.7451C394.7275 372.6353 401.7441 320.4604 409.124 265.5786C403.8477 261.9609 399.6494 258.0859 394.6953 255.9668C389.9014 253.9126 384.3262 253.6709 377.0264 252.2207C350.7939 292.0205 367.6484 344.5498 337.9443 383.5117C328.6709 330.7568 336.6309 277.8809 331.8682 224.2559C323.9014 219.3657 316.1992 214.6362 307.2402 209.1499C298.0874 217.7944 290.3936 225.0537 282.6553 232.353C282.6553 276.2212 282.6753 318.7524 282.6463 361.2754C282.6393 372.6997 284.1897 385.0586 267.1902 388.7886C264.1204 343.2124 261.7517 298.5703 250.7224 256.1924C233.1507 252.6958 219.5833 248.7725 208.3318 269.2925C216.179 325.5039 224.6189 385.9688 233.4407 449.165C222.5525 456.5293 212.0906 463.6025 201.5965 470.7012C178.72 450.334 159.4085 433.1328 140.0965 415.9395"
+        android:fillColor="@color/theme_accent" />
 </vector>
