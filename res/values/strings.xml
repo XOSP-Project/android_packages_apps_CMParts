@@ -480,8 +480,6 @@
     <string name="weather_settings_temp_celsius">Celsius</string>
     <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
     <string name="weather_settings_keyword">weather</string>
-    <string name="status_bar_show_weather_title">Show weather</string>
-    <string name="status_bar_show_weather_summary">Display the current temperature on the status bar</string>
 
     <!-- Power: Performance profiles -->
     <string name="perf_profile_settings_title">Battery saver and performance</string>
