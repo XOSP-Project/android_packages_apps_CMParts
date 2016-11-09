@@ -22,7 +22,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.preference.PreferenceManager;
 
-import org.cyanogenmod.cmparts.input.ButtonSettings;
+//import com.android.settings.xosp.ButtonsPersonalizations;
 
 public class BootReceiver extends BroadcastReceiver {
 
@@ -33,7 +33,7 @@ public class BootReceiver extends BroadcastReceiver {
     public void onReceive(Context ctx, Intent intent) {
         if (!hasRestoredTunable(ctx)) {
             /* Restore the hardware tunable values */
-            ButtonSettings.restoreKeyDisabler(ctx);
+            //ButtonsPersonalizations.restoreKeyDisabler(ctx);
             setRestoredTunable(ctx);
         }
 
