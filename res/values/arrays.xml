@@ -50,16 +50,6 @@
         <item>5000</item>
     </string-array>
 
-    <string-array name="power_menu_actions_array" translatable="false">
-        <item>power</item>
-        <item>restart</item>
-        <item>screenshot</item>
-        <item>airplane</item>
-        <item>users</item>
-        <item>bugreport</item>
-        <item>silent</item>
-    </string-array>
-
     <string-array name="profile_action_generic_connection_entries" translatable="false">
         <item>@string/profile_action_none</item>
         <item>@string/profile_action_disable</item>
