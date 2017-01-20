@@ -23,6 +23,7 @@ import android.content.SharedPreferences;
 import android.support.v7.preference.PreferenceManager;
 
 //import com.android.settings.xosp.ButtonsPersonalizations;
+import org.cyanogenmod.cmparts.gestures.TouchscreenGestureSettings;
 
 public class BootReceiver extends BroadcastReceiver {
 
@@ -37,6 +38,7 @@ public class BootReceiver extends BroadcastReceiver {
             setRestoredTunable(ctx);
         }
 
+        TouchscreenGestureSettings.restoreTouchscreenGestureStates(ctx);
     }
 
     private boolean hasRestoredTunable(Context context) {
